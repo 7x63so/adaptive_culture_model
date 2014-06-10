@@ -3,7 +3,7 @@ class Individual {
   String s;
   int x, y;  
 
-  Individual () {
+  Individual() {
     x = y = 20;
 
     // randomly intialise features
@@ -11,7 +11,7 @@ class Individual {
       features[i] = (int) random(0, 9);
   }
 
-  void printInd () {
+  void printFeatures() {
     s = join(nf(features, 0), ""); // format numbers to string
     text(s, x, y); // print to screen  
   }
