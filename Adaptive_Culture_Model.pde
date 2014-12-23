@@ -1,5 +1,3 @@
-/* OpenProcessing Tweak of *@*http://www.openprocessing.org/sketch/30819*@* */
-/* !do not delete the line above, required for linking your tweak if you upload again */
 ///////////////////////////////////////////////
 /* A simple implementation of Robert Axelrod's
  adaptive culture model.
